@@ -1,10 +1,7 @@
-var Elasticsearch = require('aws-es');
+var Elasticsearch = require('elasticsearch');
 
 // Using AWS elastic search 
-elasticsearch = new Elasticsearch({
-		accessKeyId: 'changeme',
-		secretAccessKey: 'changeme',
-		service: 'es',
-		region: 'us-west-1',
-		host: 'changeMe'
+var client = new Elasticsearch.Client({
+		host: 'localhost:32771',
+		log: 'error'
 	});

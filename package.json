@@ -9,6 +9,7 @@
   "main": "app.js",
   "dependencies": {
     "aws-es": "^1.5.3",
+    "elasticsearch": "^12.1.2",
     "express": "^4.12.3",
     "swagger-express-mw": "^0.1.0"
   },
